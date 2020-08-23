@@ -1,0 +1,210 @@
+html {
+    scroll-behavior: smooth;
+}
+
+#header img {
+    width: 120px;
+}
+
+#bienvenida {
+    position: relative;
+}
+
+#header .container li a:hover {
+    margin-top: 3px;
+    text-decoration: underline;
+}
+
+#bienvenida .carousel-inner img {
+    max-height: 85vh;
+    object-fit: cover;
+    filter: grayscale(70%);
+}
+
+#carousel {
+    position: relative;
+}
+
+#carousel .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+
+#carousel .overlay .container,
+#carousel .overlay .row {
+    height: 100%;
+}
+
+#carousel #text .container-fluid .parrafo {
+    filter: grayscale(70%);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 10px 10px 10px;
+    color: white;
+}
+
+#aboutMe .container .iconos {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#aboutMe .container .iconos img {
+    margin-top: 10px;
+    margin-right: 10px;
+    object-fit: cover;
+    height: 40px;
+}
+
+#aboutMe .container .iconos img:hover {
+    transform: scale(1.1);
+}
+
+#aboutMe .container h2, h5{
+    font-family: 'Bebas Neue', cursive;
+}
+
+#aboutMe .container p{
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+
+#projects .project-container {
+    border: rgba(0, 0, 0, 0.1) 1px solid;
+    margin-top: 20px;
+}
+
+#projects .row .card-image {
+    display: flex;
+    justify-content: center;
+}
+
+#projects .row .card img {
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+    opacity: 0.7;
+    display: flex;
+    justify-content: center;
+}
+
+#projects .row .card a{
+    color: rgb(117, 115, 115);
+}
+
+#projects .row .card a:hover{
+    color: black;
+    text-decoration: none;
+}
+
+#projects .row .card {
+    opacity: 0.8;
+}
+
+#projects .row .card:hover {
+    opacity: 1;
+}
+
+#projects .row .card {
+    height: 100%;
+    margin-top: 15px;
+}
+
+#projects {
+    background-color: rgba(119, 119, 119, 0.05);
+    height: 100%;
+}
+
+#projects .container h2,h5{
+    font-family: 'Bebas Neue', cursive;
+}
+
+#projects .container p{
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+#interests .project-container {
+    margin-top: 20px;
+}
+
+#interests .interests-item {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+#interests .interest-item-img {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+#interests .interests-item li{
+    color: rgb(117, 115, 115);
+}
+
+#interests .container h2,h4{
+    font-family: 'Bebas Neue', cursive;
+}
+
+#interests .container li{
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+#education {
+    background-color: rgba(119, 119, 119, 0.05);
+    height: 100%;
+}
+
+#education .education-item {
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    height: 80%;
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+
+#education .education-item:hover {
+    transform: scale(1.05);
+}
+
+#education .education-item .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#education .education-item p{
+    color: rgb(117, 115, 115);
+}
+
+#education .container h2,h4{
+    font-family: 'Bebas Neue', cursive;
+}
+
+#education .container p{
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px;
+}
+
+.footer a {
+    color: yellow;
+}
+
+.icono{
+  width:30px;
+  height:30px;
+}

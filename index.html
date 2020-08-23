@@ -4,81 +4,129 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link href="style.css" rel="stylesheet" type="text/css" />
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
 	 crossorigin="anonymous">
-  <title>My personal webiste</title>
-</head>
-<header>
-	<h1>Welcome to my personal website!</h1>
-	<img src="images/foto.jpg" width="100" height="100" alt='Yo'>
-  </header><hr>
+	<link href="style.css" rel="stylesheet" type="text/css" />
 
-  <body>
-    <nav class="navbar navbar-dark bg-dark">
-        <a class="navbar-brand" href="#bienvenida">Bienvenida</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-      <div class="collapse navbar-collapse" id="navbarText">
+	<title>My personal webiste</title>
+</head>
+
+<header>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<a class="navbar-brand" href="#bienvenida">Bienvenida</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
             <li class="nav-item active">
-              <a href="#datosB" class="nav-link">Datos biográficos
-                 <span class="sr-only">(current)</span>
+              <a href="#datosB" class="nav-link">About me
+                  <span class="sr-only">(current)</span>
               </a>
             </li>
             <li class="nav-item">
-              <a href="#datosA" class="nav-link">Datos académicos</a>
+              <a href="#datosA" class="nav-link">Projects</a>
             </li>
             <li class="nav-item">
-              <a href="#sitios" class="nav-link">Sitios de interés</a>
+              <a href="#sitios" class="nav-link">Interests/Hobbies</a>
             </li>
             <li class="nav-item">
-              <a href="#contacto" class="nav-link">Formulario de contacto</a>
+              <a href="#contacto" class="nav-link">Contact me!</a>
             </li>
         </ul>   
       </div>
-    </nav><hr>
+    </nav>
+  </header>
 
+  <body>
     <main>
-      <section id="bienvenida">
-        <h3>Bienvenida:</h3>
-        <H4>Hola, soy Carlos Salazar </H4>
-        <p>Bienvenido a mi página web, acá podrás conocer un poco más de mí y en caso de interesarte podrás contactarme a través del formulario presente más abajo :D</p>
-      </section>
 
+      
+      <section id="bienvenida">
+        <div>
+            <div id="carousel" class="carousel slide" data-ride="carousel" data-pause="false">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/foto1.jpg" class="d-block w-100" alt="">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/foto2.jpg" class="d-block w-100" alt="">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/foto3.jpg" class="d-block w-100" alt="">
+                    </div>
+                </div>
+                <div class="overlay">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-md-6 ">
+                                <h1>Carlos A. Salazar</h1>
+                                <p class="text-justify">Hello there, Welcome to my personal web site!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
       <section id="datosB">
-        <h3>Datos biográficos:</h3>
-        <table>
-          <tr>
-            <th>Fecha de nacimiento</th>
-            <td>9 de Diciembre del 2000</td>
-          </tr>
-          <tr>
-            <th>Lugar de nacimiento</th>
-            <td>Ibagué, Tolima</td>
-          </tr>
-          <tr>
-            <th>Hermanos</th>
-            <td>1 menor</td>
-          </tr>
-          <tr>
-            <th>Lugar de residencia</th>
-            <td>Ibagué, Tolima</td>
-          </tr>
-          <tr>
-            <th>Edad</th>
-            <td>19 años</td>
-          </tr>
-        </table>
+        <div class="container mb-5 mt-5">
+            <div class="row mb-4">
+                <div class="col text-center text-uppercase">
+                    <h2 class="mt-5">About me:</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-8 col-md-10 offset-md-1 col-6 offset-2">
+                    <div class="card mb-3">
+                        <div class="row no-gutters">
+                            <div class="col-md-4 border-image">
+                                <img src="images/photo.jpg" class="card-img rounded" alt="Me">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">My Biography</h5>
+                                    <p class="card-text text-center">My name is Carlos Salazar. I was born in December 9th, 2000 in Ibagué, Colombia, the place where i currently live. I study Systems and computing engineering at the University of the Andes at Bogotá, Colombia. I'm the first child in my family.
+                                    </p>
+                                    <h5 class="card-title text-center mt-4"> Contact Me</h5>
+                                    <div class="iconos">
+                                        <a href="https://www.facebook.com/carlosandres.salazararoca/" target="_blank"><img class="icono float-right"
+                                                src="images/facebook.png" alt=""></a>
+
+                                        <a href="https://github.com/casalazara" target="_blank"><img  class="icono float-right"
+                                                src="images/github.png" alt="" ></a>
+
+                                        <a href="https://www.linkedin.com/in/carlosasalazara/" target="_blank"><img  class="icono float-right"
+                                                src="images/linkedin.png" alt="" "></a>
+
+                                        <a href="https://twitter.com/AndresS65_" target="_blank"><img  class="icono float-right"
+                                                src="images/twitter.png" alt=""></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
       </section>
 
       <section id="datosA">
-        <h3>Datos acádemicos:</h3>
-        <ul>
-          <li>Primaria y bachillerato: Colegio San Simón</li>
-          <li>Universidad: Universidad de los Andes - Ingeniería de Sistemas y Computación</li>
+        <div class="row mb-4">
+                <div class="col text-center text-uppercase">
+                    <h2 class="mt-5">Projects:</h2>
+                </div>
+          </div>
+        <div class="row mb-4 ml-2">
+          <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="..." alt="Card image cap">
+                  <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+          </div>
+        </div>
       </section>
 
       <section id="sitios">
