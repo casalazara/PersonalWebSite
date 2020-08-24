@@ -194,16 +194,6 @@ html {
     font-family: 'Ubuntu Condensed', sans-serif;
 }
 
-.footer {
-    background-color: #343a40;
-    color: white;
-    padding: 20px;
-}
-
-.footer a {
-    color: yellow;
-}
-
 .icono{
   width:30px;
   height:30px;
