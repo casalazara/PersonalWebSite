@@ -48,29 +48,29 @@ html {
     color: white;
 }
 
-#aboutMe .container .iconos {
+#datosb .container .iconos {
     display: flex;
     justify-content: center;
 }
 
 
 
-#aboutMe .container .iconos img {
+#datosb .container .iconos img {
     margin-top: 10px;
     margin-right: 10px;
     object-fit: cover;
     height: 40px;
 }
 
-#aboutMe .container .iconos img:hover {
+#datosb .container .iconos img:hover {
     transform: scale(1.1);
 }
 
-#aboutMe .container h2, h5{
+#datosb .container h2, h5{
     font-family: 'Bebas Neue', cursive;
 }
 
-#aboutMe .container p{
+#datosb .container p{
     font-family: 'Ubuntu Condensed', sans-serif;
 }
 
@@ -129,6 +129,10 @@ html {
     font-family: 'Ubuntu Condensed', sans-serif;
 }
 
+
+
+
+
 #interests .project-container {
     margin-top: 20px;
 }
@@ -158,12 +162,14 @@ html {
     font-family: 'Ubuntu Condensed', sans-serif;
 }
 
-#education {
+
+
+#contacto {
     background-color: rgba(119, 119, 119, 0.05);
     height: 100%;
 }
 
-#education .education-item {
+#contacto .contacto-item {
     background-color: white;
     border-radius: 20px;
     padding: 20px;
@@ -172,25 +178,25 @@ html {
     margin-bottom: 80px;
 }
 
-#education .education-item:hover {
+#contacto .contacto-item:hover {
     transform: scale(1.05);
 }
 
-#education .education-item .image {
+#contacto .education-item .image {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#education .education-item p{
+#contacto .education-item p{
     color: rgb(117, 115, 115);
 }
 
-#education .container h2,h4{
+#contacto .container h2,h4{
     font-family: 'Bebas Neue', cursive;
 }
 
-#education .container p{
+#contacto .container p{
     font-family: 'Ubuntu Condensed', sans-serif;
 }
 
