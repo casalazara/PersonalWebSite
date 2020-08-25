@@ -41,7 +41,7 @@ html {
     height: 100%;
 }
 
-#carousel #text .container-fluid .parrafo {
+#carousel #text .container-fluid {
     filter: grayscale(70%);
     background-color: rgba(0, 0, 0, 0.5);
     padding: 10px 10px 10px 10px;
@@ -144,8 +144,6 @@ html {
 #interests .container li{
     font-family: 'Ubuntu Condensed', sans-serif;
 }
-
-
 
 #contacto {
     background-color: rgba(119, 119, 119, 0.05);
