@@ -53,8 +53,6 @@ html {
     justify-content: center;
 }
 
-
-
 #datosb .container .iconos img {
     margin-top: 10px;
     margin-right: 10px;
@@ -65,15 +63,6 @@ html {
 #datosb .container .iconos img:hover {
     transform: scale(1.1);
 }
-
-#datosb .container h2, h5{
-    font-family: 'Bebas Neue', cursive;
-}
-
-#datosb .container p{
-    font-family: 'Ubuntu Condensed', sans-serif;
-}
-
 
 #projects .project-container {
     border: rgba(0, 0, 0, 0.1) 1px solid;
@@ -121,9 +110,6 @@ html {
     height: 100%;
 }
 
-#projects .container h2,h5{
-    font-family: 'Bebas Neue', cursive;
-}
 
 #projects .container p{
     font-family: 'Ubuntu Condensed', sans-serif;
@@ -190,10 +176,6 @@ html {
 
 #contacto .education-item p{
     color: rgb(117, 115, 115);
-}
-
-#contacto .container h2,h4{
-    font-family: 'Bebas Neue', cursive;
 }
 
 #contacto .container p{
