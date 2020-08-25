@@ -35,7 +35,6 @@ html {
     color: white;
 }
 
-
 #carousel .overlay .container,
 #carousel .overlay .row {
     height: 100%;
@@ -46,27 +45,6 @@ html {
     background-color: rgba(0, 0, 0, 0.5);
     padding: 10px 10px 10px 10px;
     color: white;
-}
-
-#datosb .container .iconos {
-    display: flex;
-    justify-content: center;
-}
-
-#datosb .container .iconos img {
-    margin-top: 10px;
-    margin-right: 10px;
-    object-fit: cover;
-    height: 40px;
-}
-
-#datosb .container .iconos img:hover {
-    transform: scale(1.1);
-}
-
-#projects .project-container {
-    border: rgba(0, 0, 0, 0.1) 1px solid;
-    margin-top: 20px;
 }
 
 #projects .row .card-image {
@@ -83,21 +61,13 @@ html {
     justify-content: center;
 }
 
-#projects .row .card a{
+#projects  a{
     color: rgb(117, 115, 115);
 }
 
-#projects .row .card a:hover{
+#projects a:hover{
     color: black;
     text-decoration: none;
-}
-
-#projects .row .card {
-    opacity: 0.8;
-}
-
-#projects .row .card:hover {
-    opacity: 1;
 }
 
 #projects .row .card {
@@ -110,67 +80,13 @@ html {
     height: 100%;
 }
 
-
 #projects .container p{
-    font-family: 'Ubuntu Condensed', sans-serif;
-}
-
-
-#interests .project-container {
-    margin-top: 20px;
-}
-
-#interests .interests-item {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-direction: column;
-}
-
-#interests .interest-item-img {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 15px;
-}
-
-#interests .interests-item li{
-    color: rgb(117, 115, 115);
-}
-
-#interests .container h2,h4{
-    font-family: 'Bebas Neue', cursive;
-}
-
-#interests .container li{
     font-family: 'Ubuntu Condensed', sans-serif;
 }
 
 #contacto {
     background-color: rgba(119, 119, 119, 0.05);
     height: 100%;
-}
-
-#contacto .contacto-item {
-    background-color: white;
-    border-radius: 20px;
-    padding: 20px;
-    height: 80%;
-    margin-top: 20px;
-    margin-bottom: 80px;
-}
-
-#contacto .contacto-item:hover {
-    transform: scale(1.05);
-}
-
-#contacto .education-item .image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#contacto .education-item p{
-    color: rgb(117, 115, 115);
 }
 
 #contacto .container p{
