@@ -98,6 +98,6 @@ html {
   height:30px;
 }
 
-.listText{
-    font-size:1vw;
+.listText {
+  font-size: calc( (1vw + 1vh)*.90);
 }
