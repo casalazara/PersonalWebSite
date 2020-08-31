@@ -2,462 +2,382 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+    integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300&family=Montserrat+Alternates&family=Pacifico&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
 
-  <title>My personal website</title>
+  <title>My first web Page</title>
 </head>
-<!-- Navbar -->
-
-
-<!-- Carousel -->
 
 <body>
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-      <a class="navbar-brand" href="#bienvenida">Carlos Salazar</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-        <ul class="navbar-nav mt-2 mt-lg-0">
-          <li class="nav-item active">
-            <a href="#datosB" class="nav-link">About me
-              <span class="sr-only">(current)</span>
-            </a>
+  <nav class="navbar navbar-expand-lg navbar-light fondo_nav">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link fondo_nav" href="index.html">
+            Andrea Carolina López Araújo
+          </a>
+        </li>
+        <br>
+        <li class="nav-item">
+          <a class="nav-link fondo_nav" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link fondo_nav" href="#experience">Experience</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link fondo_nav" href="#education">Hobbies</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link fondo_nav" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link fondo_nav" href="#interests">Interests</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <section>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="img2 d-block w-100" src="https://i.pinimg.com/originals/52/ce/e1/52cee1ec4b2a99ec81c0fab30b49c3f8.jpg"
+            alt="First slide">
+        </div>
+        <div class="carousel-item">
+          <img class="img2 d-block w-100" src="https://k60.kn3.net/taringa/D/7/C/B/F/7/Eduardo1899/445.jpg" alt="Second slide">
+        </div>
+        <div class="carousel-item">
+          <img class="img2 d-block w-100"
+            src="https://3.bp.blogspot.com/-7ogx0mZXKK0/TZoafjsY9RI/AAAAAAAAbo4/aLHNmJ0c2ec/s1600/Los%2Bpaisajes%2Bmas%2Bhermosos%2Bdel%2Bmundo%2B%25285.jpg"
+            alt="Third slide">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </section>
+  <hr>
+
+  <div class="container-fluid p-0">
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
+      <div class="w-100">
+        <h1 class="mb-0">
+          Andrea
+          <span class="letra2">Lopez</span>
+        </h1>
+        <br>
+        <div class="letra">
+          Colombia, Bogotá, Universidad de los Andes·
+          <a href="ac.lopez@uniandes.edu.co">ac.lopez@uniandes.edu.co</a>
+
+        </div>
+        <br>
+        <p>
+          I am a student of systems engineering and I do a double program with
+          industrial engineering. In addition, I am 22 years old, I graduated
+          from the Gimnasio Británico school in 2015 and I speak Spanish,
+          English and French.
+        </p>
+        <a href="https://github.com/AndreaLopezAraujo">
+          <img class="img-fluid social-icons" src="img/github.png" alt="git">
+        </a>
+        <a href="https://www.facebook.com/andrealopezaraujo?ref=bookmarks">
+          <img class="img-fluid social-icons" src="img/facebook.png" alt="face">
+        </a>
+      </div>
+    </section>
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
+      <div class="w-100">
+        <h2 class="mb-5">Experience</h2>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Music Hall</h3>
+            <div class="letra">ExpoAndes</div>
+            <p>
+              Online music application, in which you can consult different
+              songs according to your musical preference. It should be noted
+              that recognition was obtained for this project.
+            </p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="letra">September - December 2015</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <div class="resume-date text-md-right">
+              <span class="letra">September - December 2018</span>
+            </div>
+            <h3 class="mb-0">Miru</h3>
+            <div class="letra">Mid-career project</div>
+            <p>
+              Taking into account the problem when analyzing and monitoring a
+              large number of servers, an online application was made that
+              shows in real time the behavior of each of the servers of a
+              company in addition to generating alerts in case of failures or
+              future failures.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
+      <div class="w-100">
+        <div class="container">
+          <h2 class="mb-5">Hobbies</h2>
+          <div class="card-deck mt-3">
+            <div class="card text-center borde" data-toggle="modal" data-target="#portfolioModal1">
+              <div class="card-body">
+                <h4 class="card-title">Ballet</h4>
+                <img class="img-fluid" src="img/ballet (2).png" width="200" alt="ballet">
+              </div>
+              <a class="btn  bottom btn-lg">
+                <p class="letra3">See more</p>
+              </a>
+            </div>
+            <div class="card text-center borde" data-toggle="modal" data-target="#portfolioModal2">
+              <div class="card-body">
+                <h4 class="card-title">Music</h4>
+                <img class="img-fluid" src="img/earphone.png" width="200" alt="earphone">
+              </div>
+              <a class="btn  bottom btn-lg">
+                <p class="letra3">See more</p>
+              </a>
+            </div>
+            <div class="card text-center borde" data-toggle="modal" data-target="#portfolioModal3">
+              <div class="card-body">
+                <h4 class="card-title">Books</h4>
+                <img class="img-fluid" src="img/shelf.png" width="200" alt="shelf">
+              </div>
+              <a class="btn  bottom btn-lg" data-toggle="modal" data-target="#portfolioModal3">
+                <p class=" letra3">See more</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr class=" m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
+      <div class="w-100">
+        <h2 class="mb-5">Skills</h2>
+
+        <div class="subheading mb-3">
+          <p>Programming Languages &amp; Tools</p>
+        </div>
+        <img class="img-fluid social-icons" src="img/alfabeto.png" alt="angular">
+        <img class="img-fluid social-icons" src="img/css.png" alt="css">
+        <img class="img-fluid social-icons" src="img/git.png" alt="git2">
+        <img class="img-fluid social-icons" src="img/html5.png" alt="html">
+        <img class="img-fluid social-icons" src="img/java.png" alt="java">
+        <img class="img-fluid social-icons" src="img/javascript.png" alt="javascript">
+        <img class="img-fluid social-icons" src="img/nodejs.png" alt="nodejs">
+        <img class="img-fluid social-icons" src="img/reaccionar.png" alt="react">
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="subheading mb-3">
+          <h4>Workflow</h4>
+        </div>
+        <ul class="fa-ul mb-0">
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Mobile-First, Responsive Design
           </li>
-          <li class="nav-item">
-            <a href="#projects" class="nav-link">Projects</a>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Cross Browser Testing &amp; Debugging
           </li>
-          <li class="nav-item">
-            <a href="#sitios" class="nav-link">Interests/Hobbies</a>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Cross Functional Teams
           </li>
-          <li class="nav-item">
-            <a href="#contacto" class="nav-link">Contact me!</a>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Agile Development &amp; Scrum
           </li>
         </ul>
       </div>
-    </nav>
-  </header>
-  <main>
-    <section id="bienvenida">
-      <div>
-        <div id="carousel" class="carousel slide" data-ride="carousel" data-pause="false">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="images/bot.jpg" class="d-block w-100" alt="robot playing piano">
-            </div>
-            <div class="carousel-item">
-              <img src="images/code.jpg" class="d-block w-100" alt="Code">
-            </div>
-            <div class="carousel-item">
-              <img src="images/chess.jpg" class="d-block w-100" alt="Chess">
-            </div>
-          </div>
-          <div class="overlay">
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
+      <div class="w-100">
+        <h2 class="mb-5">Interests</h2>
+        <p>
+          In addition to the development of web pages, I am interested in the issues derived from Big Data,
+          such as data mining and related to industrial engineering, how to improve processes obtaining as a
+          basis the results obtained from an analysis in data mining.
+        </p>
+        <p class="mb-0">
+          Likewise, I would like in the future after finishing my career to be able to expand my knowledge
+          through new experiences in different countries, to understand how in each country the needs are
+          different and there are different solutions to similar problems.
+        </p>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="page-footer fondo2">
+
+      <!-- Copyright -->
+      <div class="footer-copyright text-center py-3">
+        <p>Andrea Lopez Araujo</p>
+        <p>Universidad de Los Andes</p>
+        <p class="letra3">Icons made by
+        <p>
+          <a href="https://www.flaticon.com/authors/freepik" title="Freepik" class="letra2">Freepik</a> from <a
+            href="https://www.flaticon.com/" title="Flaticon" class="letra2"> www.flaticon.com</a>
+      </div>
+      <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
+    <!-- Portfolio Modals -->
+
+    <!-- Portfolio Modal 1 -->
+    <div class="portfolio-modal modal fade col-sm-4 col-lg-12 col-md-12" id="portfolioModal1" tabindex="-1"
+      role="dialog" aria-labelledby="portfolioModal1Label" aria-hidden="true">
+      <div class="modal-dialog modal-xl" role="document">
+        <div class="modal-content">
+          <button type="button" class="close boton" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">
+              <i class="fas fa-times"></i>
+            </span>
+          </button>
+          <div class="modal-body text-center">
             <div class="container">
-              <div class="row align-items-center">
-                <div class="col-md-6 ">
-                  <h1 class="text-light">Carlos Salazar</h1>
-                  <p class="text-justify text-light">Hello there, Welcome to my personal web site!</p>
+              <div class="row justify-content-center">
+                <div class="col-lg-8">
+                  <!-- Portfolio Modal - Title -->
+                  <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Ballet</h2>
+                  <hr>
+                  <p class="mb-5">I started dancing ballet when I was 4 years old and continued perfecting
+                    it to this day.</p>
+                  <button class="btn  bottom2 btn-lg" href="#" data-dismiss="modal">
+                    <i class="fas fa-times fa-fw"></i>
+                    <p class="letra3">Close Window</p>
+                  </button>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
 
-    <!-- About Me section -->
-    <section id="datosB">
-      <div class="container mb-2 mt-4">
-        <div class="row mb-4">
-          <div class="col text-center text-uppercase">
-            <h2>About me</h2>
+    <!-- Portfolio Modal 2 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog"
+      aria-labelledby="portfolioModal2Label" aria-hidden="true">
+      <div class="modal-dialog modal-xl" role="document">
+        <div class="modal-content">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">
+              <i class="fas fa-times"></i>
+            </span>
+          </button>
+          <div class="modal-body text-center">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-lg-8">
+                  <!-- Portfolio Modal - Title -->
+                  <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Music</h2>
+                  <hr>
+                  <p class="mb-5"> When I am studying, I try to distract myself or I want the time to pass
+                    faster I listen to some music that allows me to distract my mind or make the situation
+                    more pleasant.</p>
+                  <h6> Lost on you-Lp:</h6>
+                  <audio controls>
+                    <source src="img/lp-lost-on-you-live-session.mp3" type="audio/mpeg">
+                  </audio>
+                  <br>
+                  <button class="btn  bottom2 btn-lg" href="#" data-dismiss="modal">
+                    <i class="fas fa-times fa-fw"></i>
+                    <p class="letra3">Close Window</p>
+                  </button>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-8 col-md-10 offset-md-1 col-6 offset-2">
-            <div class="card mb-2">
-              <div class="row no-gutters">
-                <div class="col-md-4 border-image">
-                  <img src="images/0.jpg" class="card-img rounded" alt="Me">
-                </div>
-                <div class="col-md-8">
-                  <div class="card-body">
-                    <h5 class="card-title text-center">My Biography</h5>
-                    <p class="card-text text-center text-justify">My name is Carlos Andrés Salazar Aroca. I was born in
-                      December 9th,
-                      2000 in Ibagué, Colombia, the place where I currently live. I study Systems and computing
-                      engineering at Universidad de los Andes in Bogotá, Colombia. I'm the firstborn in my family.
-                    </p>
-                    <h5 class="card-title text-center mt-4"> Contact Me</h5>
-                    <div class="iconos text-center">
-                      <a href="https://www.facebook.com/carlosandres.salazararoca/" target="_blank"><img
-                          class="icono ml-3" src="images/facebook.png" alt="Facebook"></a>
+      </div>
+    </div>
 
-                      <a href="https://github.com/casalazara" target="_blank"><img class="icono ml-3"
-                          src="images/github.png" alt="Github"></a>
-
-                      <a href="https://www.linkedin.com/in/carlosasalazara/" target="_blank"><img class="icono ml-3"
-                          src="images/linkedin.png" alt="LinkedIn"></a>
-
-                      <a href=" https://twitter.com/AndresS65_" target="_blank"><img class="icono ml-3"
-                          src="images/twitter.png" alt="Twitter"></a>
-                    </div>
+    <!-- Portfolio Modal 3 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog"
+      aria-labelledby="portfolioModal3Label" aria-hidden="true">
+      <div class="modal-dialog modal-xl" role="document">
+        <div class="modal-content">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">
+              <i class="fas fa-times"></i>
+            </span>
+          </button>
+          <div class="modal-body text-center">
+            <div class="container">
+              <div class="container">
+                <div class="row justify-content-center">
+                  <div class="col-lg-8">
+                    <!-- Portfolio Modal - Title -->
+                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Books</h2>
+                    <hr>
+                    <p class="mb-5">Lately, one of my biggest hobbies is looking for books of different
+                      types and reading some chapters, I can spend several hours a day in this activity.</p>
+                    <button class="btn  bottom2 btn-lg" href="#" data-dismiss="modal">
+                      <i class="fas fa-times fa-fw"></i>
+                      <p class="letra3">Close Window</p>
+                    </button>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-
-      <!-- Timeline -->
-      <div class="container py-2">
-        <h2 class="text-muted text-center font-weight-dark">Academical timeline</h2>
-        <div class="row">
-          <div class="col-auto text-center flex-column d-none d-sm-flex">
-            <div class="row h-50">
-              <div class="col">&nbsp;</div>
-              <div class="col">&nbsp;</div>
-            </div>
-            <h5 class="m-2">
-              <span class="badge badge-pill bg-light border">&nbsp;</span>
-            </h5>
-            <div class="row h-50">
-              <div class="col border-right">&nbsp;</div>
-              <div class="col">&nbsp;</div>
-            </div>
-          </div>
-
-          <div class="col">
-            <div class="card">
-              <div class="card-body">
-                <div class="float-right text-muted">2011 - 2017</div>
-                <h4 class="card-title text-muted">High School</h4>
-                <p class="card-text">I made my high school studies at San Simon School in Ibagué, Colombia.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-auto text-center flex-column d-none d-sm-flex">
-            <div class="row h-50">
-              <div class="col border-right">&nbsp;</div>
-              <div class="col">&nbsp;</div>
-            </div>
-            <h5 class="m-2">
-              <span class="badge badge-pill bg-success">&nbsp;</span>
-            </h5>
-          </div>
-          <div class="col py-2">
-            <div class="card border-success shadow">
-              <div class="card-body">
-                <div class="float-right text-success">2018 - PRESENT</div>
-                <h4 class="card-title text-success">University</h4>
-                <p class="card-text">I'm currently studying Systems and Computing Engineering at Universidad de los
-                  Andes located in Bogotá, Colombia.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Working Experience -->
-      <div class="container">
-        <h2 class="text-muted text-center font-weight-dark mb-4">Working experience</h2>
-        <div class="row">
-          <div class="col md-6">
-            <div class="card mb-2" style="max-width: 540px;">
-              <div class="row no-gutters">
-                <div class="col-md-6">
-                  <div class="embed-responsive embed-responsive-4by3">
-                    <iframe class="embed-responsive-item mt-3  ml-3" src="https://www.youtube.com/embed/Yz0SeM0c3n4"
-                      allowfullscreen></iframe>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="card-body">
-                    <div class="float-right text-muted">2019-1 - 2020-1</div>
-                    <h5 class="card-title">Tutor</h5>
-                    <p class="card-text text-justify"> Courses: Introduction to programming, algorithm and
-                      object-oriented programming.
-                      Gave individual tutorials to students who had doubts about the different subjects of the course.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col md-6">
-            <div class="card mb-2" style="max-width: 540px;">
-              <div class="row no-gutters">
-                <div class="col-md-6">
-                  <img src="images/progra.jpg" class="card-img img-fluid mt-4" alt="Programming">
-                </div>
-                <div class="col-md-6 ">
-                  <div class="card-body">
-                    <div class="float-right text-muted">2020-1 - 2020-1</div>
-                    <h5 class="card-title">Teaching assistant</h5>
-                    <p class="card-text text-justify"> Courses: Introduction to programming.<br>
-                      Supported a teacher helping students during labs and grading projects and practical exams.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Skills -->
-      <div class="container">
-        <h2 class="text-muted text-center font-weight-dark mb-4">Skills</h2>
-        <div class="row mb-2">
-          <div class="col-md-12">
-            <h5 class="card-title text-center text-muted">Java</h5>
-            <div class="progress">
-              <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="65"
-                aria-valuemin="0" aria-valuemax="100" style="width: 65%"> 65%</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="row mb-2">
-          <div class="col-md-12">
-            <h5 class="card-title text-center text-muted">Python</h5>
-            <div class="progress">
-              <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar"
-                aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%"> 65%</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="row mb-2">
-          <div class="col-md-12">
-            <h5 class="card-title text-center text-muted">Software Development</h5>
-            <div class="progress">
-              <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" role="progressbar"
-                aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%"> 50%</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="row mb-2">
-          <div class="col-md-12">
-            <h5 class="card-title text-center text-muted">Data Science</h5>
-            <div class="progress">
-              <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar"
-                aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%"> 60%</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="row mb-2">
-          <div class="col-md-12">
-            <h5 class="card-title text-center text-muted">Algorithms</h5>
-            <div class="progress">
-              <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar"
-                aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%"> 50%</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Projects section -->
-
-    <section id="projects">
-      <div class="container">
-        <div class="row mb-4 mt-4">
-          <div class="col text-center text-uppercase mt-4">
-            <h2>Projects</h2>
-          </div>
-        </div>
-        <div class="card-deck">
-
-          <div class="card mb-4">
-            <a href="https://github.com/casalazara/BetAssistantBot" target="_blank">
-              <div class="card-image">
-                <img class="card-img-top" src="images/bot2.jpg" alt="Bet Bot">
-              </div>
-              <div class="card-body">
-                <h5 class="card-title text-center">Telegram bet assistant bot</h5>
-                <p class="card-text  text-justify text-center">It's a bot that let's you save and have control over your
-                  bets. It's only done with
-                  Python's telegram library.</p>
-            </a>
-          </div>
-        </div>
-
-        <div class="card mb-4">
-          <a href="https://github.com/casalazara/Sistrans-B13" target="_blank">
-            <div class="card-image">
-              <img class="card-img-top" src="images/epsandes.jpg" alt="Card image cap">
-            </div>
-            <div class="card-body">
-              <h5 class="card-title text-center">EPS management app</h5>
-              <p class="card-text text-justify text-center">This is an app made using Java and SQL queries in order to
-                let EPS members take some
-                decissions about the health service, the patients and offer reservations to them.</p>
-          </a>
-        </div>
-      </div>
-
-      <div class="card mb-4">
-        <a href="https://github.com/casalazara/caso2_infracomp" target="_blank">
-          <div class="card-image">
-            <img class="card-img-top" src="images/cipher.jpg" alt="Card image cap">
-          </div>
-          <div class="card-body">
-            <h5 class="card-title text-center">Cipher app</h5>
-            <p class="card-text text-justify text-center">This is a project that let's you stablish a protocol with a
-              server and encrypt the
-              messages between both, you and the server. It was done using only java</p>
-        </a>
-      </div>
-      </div>
-      </div>
-      </div>
-      </div>
-    </section>
-    <!-- Hobbies and Interests section -->
-
-    <section id="sitios">
-      <div class="container">
-        <div class="row mb-4 mt-4">
-          <div class="col text-center text-uppercase">
-            <h2>Interests/Hobbies</h2>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row  justify-content-center">
-            <div class="card mb-4 w-25 h-25">
-              <div class="card-image">
-                <img class="card-img-top" src="images/machine-learning.png" alt="Card image cap">
-              </div>
-              <div class="card-header bg-secondary text-light text-center listText">
-                Interests
-              </div>
-              <div class="list-group">
-                <a href="https://en.wikipedia.org/wiki/Data_science"
-                  class="listText list-group-item list-group-item-action text-center">Data Science</a>
-                <a href="https://en.wikipedia.org/wiki/Neural_network"
-                  class="listText list-group-item list-group-item-action text-center">Neural Networks</a>
-                <a href="https://en.wikipedia.org/wiki/Quantum_machine_learning"
-                  class="listText list-group-item list-group-item-action text-center">Quantum Machine Learning</a>
-                <a href="https://en.wikipedia.org/wiki/Web_development"
-                  class="listText list-group-item list-group-item-action text-center">Web develovpment</a>
-                <a href="https://en.wikipedia.org/wiki/Statistics"
-                  class="listText list-group-item list-group-item-action text-center">Statistics</a>
-              </div>
-            </div>
-            <div class="card mb-4 ml-4 w-25 h-25">
-              <div class="card-image">
-                <img class="card-img-top" src="images/jigsaw.png" alt="Card image cap">
-              </div>
-              <div class="card-header bg-secondary text-light text-center listText">
-                Hobbies
-              </div>
-              <div class="list-group">
-                <a href="https://lichess.org/@/carlossala"
-                  class="listText list-group-item list-group-item-action text-center">Playing Chess</a>
-                <a href="https://open.spotify.com/user/5h8nej3ntltbqw7h53l5dmbz4?si=xjGsWAH9T0CViHnI-dvyHA"
-                  class="listText list-group-item list-group-item-action text-center">Listening to music</a>
-                <a href="https://www.imdb.com/title/tt4158110/"
-                  class="listText list-group-item list-group-item-action text-center">Watching Series</a>
-                <a href="https://steamcommunity.com/id/salacho65/"
-                  class="listText list-group-item list-group-item-action text-center">Playing Videogames</a>
-                <a href="https://www.youtube.com/channel/UC784OkfcA7dWnx-tWnDvEFg?view_as=subscriber"
-                  class="listText list-group-item list-group-item-action text-center">Watching videos</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-
-    <!-- Music -->
-    <section id="sitios">
-      <div class="container">
-        <div class="row mb-4 mt-4">
-          <div class="col text-center text-uppercase">
-            <h4>One of my favorite songs: UB40 - Kingston Town</h4>
-          </div>
-        </div>
-        <div class="row justify-content-center mb-4">
-          <audio controls>
-            <source src="music/kt.mp3" type="audio/mpeg">
-            Your browser does not support the audio element.
-          </audio>
-        </div>
-      </div>
-    </section>
-
-
-    <!-- Contact section (Form) -->
-
-    <section id="contacto">
-      <div class="container">
-        <div class="row">
-          <div class="col text-center text-uppercase mt-4">
-            <h2>Contact me!</h2>
-          </div>
-        </div>
-        <form>
-          <div class="form-group">
-            <label for="exampleFormControlInput1">Name</label>
-            <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="John Doe">
-          </div>
-          <div class="form-group">
-            <label for="exampleFormControlInput1">Email address</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-          </div>
-
-          <div class="form-group">
-            <label for="exampleFormControlTextarea1">Message</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
-              placeholder="Your message here :D"></textarea>
-          </div>
-          <div class="text-center">
-            <button type="submit " class="btn btn-primary ">Submit</button>
-          </div>
-          <br>
-        </form>
-      </div>
-    </section>
-
-  </main>
-
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-    crossorigin="anonymous"></script>
-</body>
-<!-- Footer -->
-
-<footer>
-  <div class="container-fluid bg-dark ">
-    <div class="row">
-      <div class="col-8 offset-2 text-center mt-4">
-        <p class="text-light">Copyright © 2020 Carlos Salazar – Bootstrap</p>
-        <p class="text-light">Icons made by <a href="https://www.flaticon.com/authors/freepik"
-            title="Freepik">Freepik</a> from
-          <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a></p>
-        <p class="text-light">Images taken from
-          <a href="https://unsplash.com/">www.unsplash.com</a></p>
       </div>
     </div>
   </div>
-</footer>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+    integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+    integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+    crossorigin="anonymous"></script>
+</body>
 
 </html>
