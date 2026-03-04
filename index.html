@@ -4,424 +4,478 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta
-      name="description"
-      content="My personal website!"
-    />
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-  <link href="style.css" rel="stylesheet" type="text/css" />
+  <meta name="description" content="Carlos Salazar - Software Engineer, Data Scientist, Football Data Analyst">
+  <title>Carlos Salazar | Portfolio</title>
 
-  <title>My personal website</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link href="style.css" rel="stylesheet">
 </head>
-<!-- Navbar -->
-
-
-<!-- Carousel -->
 
 <body>
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-      <a class="navbar-brand" href="#bienvenida">Carlos Salazar</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#hero">CS</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-        <ul class="navbar-nav mt-2 mt-lg-0">
-          <li class="nav-item active">
-            <a href="#datosB" class="nav-link">About me
-              <span class="sr-only">(current)</span>
-            </a>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About Me</a>
           </li>
           <li class="nav-item">
-            <a href="#projects" class="nav-link">Projects</a>
+            <a class="nav-link" href="#experience">Experience</a>
           </li>
           <li class="nav-item">
-            <a href="#sitios" class="nav-link">Interests/Hobbies</a>
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
           </li>
         </ul>
       </div>
-    </nav>
-  </header>
-  <main>
-    <section id="bienvenida">
-      <div>
-        <div id="carousel" class="carousel slide" data-ride="carousel" data-pause="false">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="images/bot.jpg" class="d-block w-100" alt="robot playing piano">
-            </div>
-            <div class="carousel-item">
-              <img src="images/code.jpg" class="d-block w-100" alt="Code">
-            </div>
-            <div class="carousel-item">
-              <img src="images/chess.jpg" class="d-block w-100" alt="Chess">
-            </div>
-          </div>
-          <div class="overlay">
-            <div class="container">
-              <div class="row align-items-center">
-                <div class="col-md-6 ">
-                  <h1 class="text-light">Carlos Salazar</h1>
-                  <p class="text-justify text-light">Hello there, Welcome to my personal web site!</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero">
+    <div class="container hero-content">
+      <h1 class="hero-title">Carlos Salazar</h1>
+      <p class="hero-subtitle">Building systems, extracting insights, analyzing the game.</p>
+
+      <div class="roles-container">
+        <span class="role-badge"><i class="fas fa-code me-2"></i>Software Engineer</span>
+        <span class="role-badge"><i class="fas fa-chart-network me-2"></i>Data Scientist</span>
+        <span class="role-badge"><i class="fas fa-futbol me-2"></i>Football Analyst</span>
       </div>
-    </section>
 
-    <!-- About Me section -->
-    <section id="datosB">
-      <div class="container mb-2 mt-4">
-        <div class="row mb-4">
-          <div class="col text-center text-uppercase">
-            <h2>About me</h2>
-          </div>
+      <div class="social-icons mt-5 align-items-center">
+        <a href="https://github.com/casalazara" class="social-icon" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/carlosasalazara/" class="social-icon" target="_blank"><i
+            class="fab fa-linkedin-in"></i></a>
+        <a href="mailto:ca.salazara@uniandes.edu.co" class="social-icon"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section-padding">
+    <div class="container">
+      <div class="text-center mb-5 reveal">
+        <h2 class="section-title">About Me</h2>
+      </div>
+
+      <div class="row align-items-center mb-5 reveal">
+        <div class="col-lg-4 mb-4 mb-lg-0 text-center">
+          <img src="images/0.jpg" alt="Carlos Salazar" class="img-fluid rounded-circle shadow-lg"
+            style="max-width: 250px; border: 5px solid white;">
         </div>
-        <div class="row">
-          <div class="col-8 col-md-10 offset-md-1 col-6 offset-2">
-            <div class="card mb-2">
-              <div class="row no-gutters">
-                <div class="col-md-4 border-image">
-                  <img src="images/0.jpg" class="card-img rounded" alt="Me">
-                </div>
-                <div class="col-md-8">
-                  <div class="card-body">
-                    <h5 class="card-title text-center">My Biography</h5>
-                    <p class="card-text text-center text-justify">My name is Carlos Andrés Salazar Aroca. I was born in
-                      December 9th,
-                      2000 in Ibagué, Colombia, the place where I currently live. I study Systems and computing
-                      engineering at Universidad de los Andes in Bogotá, Colombia. I'm the firstborn in my family.
-                    </p>
-                    <h5 class="card-title text-center mt-4"> Contact Me</h5>
-                    <div class="iconos text-center">
-                      <a href="https://www.facebook.com/carlosandres.salazararoca/" target="_blank" rel="noreferrer"><img
-                          class="icono ml-3" src="images/facebook.png" alt="Facebook"></a>
-
-                      <a href="https://github.com/casalazara" target="_blank" rel="noreferrer"><img class="icono ml-3"
-                          src="images/github.png" alt="Github"></a>
-
-                      <a href="https://www.linkedin.com/in/carlosasalazara/" target="_blank" rel="noreferrer"><img class="icono ml-3"
-                          src="images/linkedin.png" alt="LinkedIn"></a>
-
-                      <a href=" https://twitter.com/AndresS65_" target="_blank" rel="noreferrer"><img class="icono ml-3"
-                          src="images/twitter.png" alt="Twitter"></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+        <div class="col-lg-8">
+          <div class="card modern-card p-4">
+            <p class="lead mb-4">I am a passionate technologist combining Software Engineering, Data Science, and
+              Football Analytics to solve complex problems and build scalable solutions.</p>
+            <p>I hold a B.Sc in Systems and Computing Engineering from Universidad de los Andes, and I'm currently
+              pursuing a Master's in Data Science at Pontificia Universidad Católica de Chile, alongside a Master's in
+              Big Data Applied to Football Scouting.</p>
           </div>
         </div>
       </div>
 
-      <!-- Timeline -->
-      <div class="container py-2">
-        <h2 class="text-muted text-center font-weight-dark">Academical timeline</h2>
-        <div class="row">
-          <div class="col-auto text-center flex-column d-none d-sm-flex">
-            <div class="row h-50">
-              <div class="col">&nbsp;</div>
-              <div class="col">&nbsp;</div>
-            </div>
-            <h5 class="m-2">
-              <span class="badge badge-pill bg-light border">&nbsp;</span>
-            </h5>
-            <div class="row h-50">
-              <div class="col border-right">&nbsp;</div>
-              <div class="col">&nbsp;</div>
-            </div>
-          </div>
-
-          <div class="col">
-            <div class="card">
-              <div class="card-body">
-                <div class="float-right text-muted">2011 - 2017</div>
-                <h4 class="card-title text-muted">High School</h4>
-                <p class="card-text">I made my high school studies at San Simon School in Ibagué, Colombia.</p>
-              </div>
-            </div>
+      <!-- Education Timeline -->
+      <h3 class="text-center mb-4 mt-5 reveal">Education Journey</h3>
+      <div class="timeline reveal">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="text-muted small">Nov 2024 - Jul 2025</span>
+            <h5>M.Sc Big Data Applied to Football Scouting</h5>
+            <p class="text-primary mb-2">Sports Data Campus</p>
+            <p class="small mb-0">Sports Data & Scouting, Data Sources & Visualization, Player Performance Analytics
+              (ML), Talent Detection.</p>
           </div>
         </div>
-        <div class="row">
-          <div class="col-auto text-center flex-column d-none d-sm-flex">
-            <div class="row h-50">
-              <div class="col border-right">&nbsp;</div>
-              <div class="col">&nbsp;</div>
-            </div>
-            <h5 class="m-2">
-              <span class="badge badge-pill bg-success">&nbsp;</span>
-            </h5>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="text-muted small">Aug 2023 - Jul 2025</span>
+            <h5>M.Sc Data Science</h5>
+            <p class="text-primary mb-2">Pontificia Universidad Católica de Chile</p>
+            <p class="small mb-0">GPA: 6.76/7.00. Focus on Time Series, Data Visualization, Responsible Data Science,
+              Statistical and Computational Learning.</p>
           </div>
-          <div class="col py-2">
-            <div class="card border-success shadow">
-              <div class="card-body">
-                <div class="float-right text-success">2018 - PRESENT</div>
-                <h4 class="card-title text-success">University</h4>
-                <p class="card-text">I'm currently studying Systems and Computing Engineering at Universidad de los
-                  Andes located in Bogotá, Colombia.</p>
-              </div>
-            </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="text-muted small">Jan 2018 - Oct 2022</span>
+            <h5>B.Sc Systems and Computing Engineering</h5>
+            <p class="text-primary mb-2">Universidad de los Andes</p>
+            <p class="small mb-0">GPA: 4.18/5.00. Focus on Data Structures, Algorithm Design, Business Intelligence,
+              Data Science.</p>
           </div>
         </div>
       </div>
-      <!-- Working Experience -->
-      <div class="container">
-        <h2 class="text-muted text-center font-weight-dark mb-4">Working experience</h2>
-        <div class="row">
-          <div class="col md-6">
-            <div class="card mb-2" style="max-width: 540px;">
-              <div class="row no-gutters">
-                <div class="col-md-6">
-                  <div class="embed-responsive embed-responsive-4by3">
-                    <iframe class="embed-responsive-item mt-3  ml-3" src="https://www.youtube.com/embed/Yz0SeM0c3n4"
-                      allowfullscreen></iframe>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="card-body">
-                    <div class="float-right text-muted">2019-1 - 2020-1</div>
-                    <h5 class="card-title">Tutor</h5>
-                    <p class="card-text text-justify"> Courses: Introduction to programming, algorithm and
-                      object-oriented programming.
-                      Gave individual tutorials to students who had doubts about the different subjects of the course.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col md-6">
-            <div class="card mb-2" style="max-width: 540px;">
-              <div class="row no-gutters">
-                <div class="col-md-6">
-                  <img src="images/progra.jpg" class="card-img img-fluid mt-4" alt="Programming">
-                </div>
-                <div class="col-md-6 ">
-                  <div class="card-body">
-                    <div class="float-right text-muted">2020-1 - 2020-1</div>
-                    <h5 class="card-title">Teaching assistant</h5>
-                    <p class="card-text text-justify"> Courses: Introduction to programming.<br>
-                      Supported a teacher helping students during labs and grading projects and practical exams.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Skills -->
-      <div class="container">
-        <h2 class="text-muted text-center font-weight-dark mb-4">Skills</h2>
-        <div class="row mb-2">
-          <div class="col-md-12">
-            <h5 class="card-title text-center text-muted">Java</h5>
-            <div class="progress">
-              <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="65"
-                aria-valuemin="0" aria-valuemax="100" style="width: 65%"> 65%</div>
-            </div>
-          </div>
-        </div>
 
-        <div class="row mb-2">
-          <div class="col-md-12">
-            <h5 class="card-title text-center text-muted">Python</h5>
-            <div class="progress">
-              <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar"
-                aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%"> 65%</div>
-            </div>
+      <!-- Certifications -->
+      <div class="row mt-5 reveal">
+        <h3 class="text-center mb-4">Certifications</h3>
+        <div class="col-md-4 mb-3">
+          <div class="card modern-card text-center p-3">
+            <i class="fas fa-brain fa-2x text-primary mb-3 mt-2"></i>
+            <h6>Coursera</h6>
+            <p class="small text-muted">Applied Data Science with Python, Deep Learning, TensorFlow.</p>
           </div>
         </div>
-
-        <div class="row mb-2">
-          <div class="col-md-12">
-            <h5 class="card-title text-center text-muted">Software Development</h5>
-            <div class="progress">
-              <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" role="progressbar"
-                aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%"> 50%</div>
-            </div>
+        <div class="col-md-4 mb-3">
+          <div class="card modern-card text-center p-3">
+            <i class="fas fa-futbol fa-2x text-success mb-3 mt-2"></i>
+            <h6>Conmebol & MBP</h6>
+            <p class="small text-muted">Football Performance Analyst, Advanced Football Performance Analyst, Specialist
+              in Scouting and Game Analysis.</p>
           </div>
         </div>
-
-        <div class="row mb-2">
-          <div class="col-md-12">
-            <h5 class="card-title text-center text-muted">Data Science</h5>
-            <div class="progress">
-              <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar"
-                aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%"> 60%</div>
-            </div>
+        <div class="col-md-4 mb-3">
+          <div class="card modern-card text-center p-3">
+            <i class="fas fa-lightbulb fa-2x text-warning mb-3 mt-2"></i>
+            <h6>IBM</h6>
+            <p class="small text-muted">Enterprise Design Thinking Practitioner.</p>
           </div>
-        </div>
-
-        <div class="row mb-2">
-          <div class="col-md-12">
-            <h5 class="card-title text-center text-muted">Algorithms</h5>
-            <div class="progress">
-              <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar"
-                aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%"> 50%</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Projects section -->
-
-    <section id="projects">
-      <div class="container">
-        <div class="row mb-4 mt-4">
-          <div class="col text-center text-uppercase mt-4">
-            <h2>Projects</h2>
-          </div>
-        </div>
-        <div class="card-deck">
-
-          <div class="card mb-4">
-            <a href="https://github.com/casalazara/BetAssistantBot" target="_blank" rel="noreferrer">
-              <div class="card-image">
-                <img class="card-img-top" src="images/bot2.jpg" alt="Bet Bot">
-              </div>
-              <div class="card-body">
-                <h5 class="card-title text-center">Telegram bet assistant bot</h5>
-                <p class="card-text  text-justify text-center">It's a bot that let's you save and have control over your
-                  bets. It's only done with
-                  Python's telegram library.</p>
-            </a>
-          </div>
-        </div>
-
-        <div class="card mb-4">
-          <a href="https://github.com/casalazara/Sistrans-B13" target="_blank" rel="noreferrer">
-            <div class="card-image">
-              <img class="card-img-top" src="images/epsandes.jpg" alt="Card image cap">
-            </div>
-            <div class="card-body">
-              <h5 class="card-title text-center">EPS management app</h5>
-              <p class="card-text text-justify text-center">This is an app made using Java and SQL queries in order to
-                let EPS members take some
-                decissions about the health service, the patients and offer reservations to them.</p>
-          </a>
-        </div>
-      </div>
-
-      <div class="card mb-4">
-        <a href="https://github.com/casalazara/caso2_infracomp" target="_blank" rel="noreferrer">
-          <div class="card-image">
-            <img class="card-img-top" src="images/cipher.jpg" alt="Card image cap">
-          </div>
-          <div class="card-body">
-            <h5 class="card-title text-center">Cipher app</h5>
-            <p class="card-text text-justify text-center">This is a project that let's you stablish a protocol with a
-              server and encrypt the
-              messages between both, you and the server. It was done using only java</p>
-        </a>
-      </div>
-      </div>
-      </div>
-      </div>
-      </div>
-    </section>
-    <!-- Hobbies and Interests section -->
-
-    <section id="sitios">
-      <div class="container">
-        <div class="row mb-4 mt-4">
-          <div class="col text-center text-uppercase">
-            <h2>Interests/Hobbies</h2>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row  justify-content-center">
-            <div class="card mb-4 w-25 h-25">
-              <div class="card-image">
-                <img class="card-img-top" src="images/machine-learning.png" alt="Card image cap">
-              </div>
-              <div class="card-header bg-secondary text-light text-center listText">
-                Interests
-              </div>
-              <div class="list-group">
-                <a href="https://en.wikipedia.org/wiki/Data_science"
-                  class="listText list-group-item list-group-item-action text-center">Data Science</a>
-                <a href="https://en.wikipedia.org/wiki/Neural_network"
-                  class="listText list-group-item list-group-item-action text-center">Neural Networks</a>
-                <a href="https://en.wikipedia.org/wiki/Quantum_machine_learning"
-                  class="listText list-group-item list-group-item-action text-center">Quantum Machine Learning</a>
-                <a href="https://en.wikipedia.org/wiki/Web_development"
-                  class="listText list-group-item list-group-item-action text-center">Web develovpment</a>
-                <a href="https://en.wikipedia.org/wiki/Statistics"
-                  class="listText list-group-item list-group-item-action text-center">Statistics</a>
-              </div>
-            </div>
-            <div class="card mb-4 ml-4 w-25 h-25">
-              <div class="card-image">
-                <img class="card-img-top" src="images/jigsaw.png" alt="Card image cap">
-              </div>
-              <div class="card-header bg-secondary text-light text-center listText">
-                Hobbies
-              </div>
-              <div class="list-group">
-                <a href="https://lichess.org/@/carlossala"
-                  class="listText list-group-item list-group-item-action text-center">Playing Chess</a>
-                <a href="https://open.spotify.com/user/5h8nej3ntltbqw7h53l5dmbz4?si=xjGsWAH9T0CViHnI-dvyHA"
-                  class="listText list-group-item list-group-item-action text-center">Listening to music</a>
-                <a href="https://www.imdb.com/title/tt4158110/"
-                  class="listText list-group-item list-group-item-action text-center">Watching Series</a>
-                <a href="https://steamcommunity.com/id/salacho65/"
-                  class="listText list-group-item list-group-item-action text-center">Playing Videogames</a>
-                <a href="https://www.youtube.com/channel/UC784OkfcA7dWnx-tWnDvEFg?view_as=subscriber"
-                  class="listText list-group-item list-group-item-action text-center">Watching videos</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-
-    <!-- Music -->
-    <section id="sitios">
-      <div class="container">
-        <div class="row mb-4 mt-4">
-          <div class="col text-center text-uppercase">
-            <h4>One of my favorite songs: UB40 - Kingston Town</h4>
-          </div>
-        </div>
-        <div class="row justify-content-center mb-4">
-          <audio controls>
-            <source src="music/kt.mp3" type="audio/mpeg">
-            Your browser does not support the audio element.
-          </audio>
-        </div>
-      </div>
-    </section>   
-  </main>
-  <!-- Footer -->
-  <footer>
-    <div class="container-fluid bg-dark ">
-      <div class="row">
-        <div class="col-8 offset-2 text-center mt-4">
-          <p class="text-light">Copyright © 2020 Carlos Salazar – Bootstrap</p>
-          <p class="text-light">Icons made by <a href="https://www.flaticon.com/authors/freepik"
-              title="Freepik">Freepik</a> from
-            <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a></p>
-          <p class="text-light">Images taken from
-            <a href="https://unsplash.com/">www.unsplash.com</a></p>
         </div>
       </div>
     </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience" class="section-padding bg-dark-section">
+    <div class="container">
+      <div class="text-center mb-5 reveal">
+        <h2 class="section-title">Professional Experience</h2>
+      </div>
+
+      <div class="timeline reveal">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="text-info small">Feb 2023 - Present</span>
+            <h5>Software Engineer II</h5>
+            <p class="text-light mb-2"><i class="fas fa-building me-1"></i> Houm</p>
+            <ul class="small mb-0 ps-3">
+              <li>Promoted from Software Engineer (Jun 2021 - Jan 2023).</li>
+              <li>Developed integrations with top real estate portals in Mexico, Colombia, and Chile.</li>
+              <li>Maintained and improved property ranking algorithm to prioritize high-performing listings.</li>
+              <li>Collaborated with cross-functional teams to deliver reliable integrations with external APIs.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="text-info small">Mar 2021 - Jun 2021</span>
+            <h5>Research Auxiliar</h5>
+            <p class="text-light mb-2"><i class="fas fa-flask me-1"></i> Quantil</p>
+            <ul class="small mb-0 ps-3">
+              <li>Collected and preprocessed public datasets to train forecasting models.</li>
+              <li>Developed and deployed RNN models to forecast bids from different colombian energetic market agents.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section-padding">
+    <div class="container">
+      <div class="text-center mb-5 reveal">
+        <h2 class="section-title">Technical Skills</h2>
+      </div>
+
+      <div class="row reveal">
+        <div class="col-md-6 col-lg-3 mb-4">
+          <div class="card modern-card p-4">
+            <div class="skill-category">
+              <h4><i class="fas fa-code me-2"></i>Languages</h4>
+              <div class="skills-container">
+                <span class="skill-chip">Python</span>
+                <span class="skill-chip">Java</span>
+                <span class="skill-chip">SQL</span>
+                <span class="skill-chip">JavaScript</span>
+                <span class="skill-chip">TypeScript</span>
+                <span class="skill-chip">R</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3 mb-4">
+          <div class="card modern-card p-4">
+            <div class="skill-category">
+              <h4><i class="fas fa-cubes me-2"></i>Frameworks</h4>
+              <div class="skills-container">
+                <span class="skill-chip">Django</span>
+                <span class="skill-chip">FastAPI</span>
+                <span class="skill-chip">Flask</span>
+                <span class="skill-chip">Spring Boot</span>
+                <span class="skill-chip">React</span>
+                <span class="skill-chip">Angular</span>
+                <span class="skill-chip">Node.js</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3 mb-4">
+          <div class="card modern-card p-4">
+            <div class="skill-category">
+              <h4><i class="fas fa-database me-2"></i>Data & AI</h4>
+              <div class="skills-container">
+                <span class="skill-chip">Pandas</span>
+                <span class="skill-chip">NumPy</span>
+                <span class="skill-chip">TensorFlow</span>
+                <span class="skill-chip">Scikit-learn</span>
+                <span class="skill-chip">PostgreSQL</span>
+                <span class="skill-chip">MongoDB</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3 mb-4">
+          <div class="card modern-card p-4">
+            <div class="skill-category">
+              <h4><i class="fas fa-cloud me-2"></i>Tools & Cloud</h4>
+              <div class="skills-container">
+                <span class="skill-chip">Docker</span>
+                <span class="skill-chip">Git</span>
+                <span class="skill-chip">AWS</span>
+                <span class="skill-chip">Airflow</span>
+                <span class="skill-chip">Datadog</span>
+                <span class="skill-chip">Tableau</span>
+                <span class="skill-chip">Power BI</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3 mb-4">
+          <div class="card modern-card p-4">
+            <div class="skill-category">
+              <h4><i class="fas fa-globe me-2"></i>Spoken Languages</h4>
+              <div class="skills-container">
+                <span class="skill-chip">Spanish (Native)</span>
+                <span class="skill-chip">English (Professional)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section-padding bg-light">
+    <div class="container">
+      <div class="text-center mb-5 reveal">
+        <h2 class="section-title">Featured Projects</h2>
+      </div>
+
+      <div class="row reveal">
+        <!-- Project 1 -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card modern-card">
+            <div class="card-img-wrapper bg-primary bg-opacity-10 d-flex align-items-center justify-content-center">
+              <i class="fas fa-futbol fa-4x text-primary"></i>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Football Scouting Analytics Platform</h5>
+              <div class="mb-3">
+                <span class="badge bg-primary">Python</span>
+                <span class="badge bg-info text-dark">GenAI</span>
+                <span class="badge bg-danger">Streamlit</span>
+              </div>
+              <p class="card-text small text-muted">Built ETL pipelines from public football sources into a DB (+1,900
+                players). Developed a Streamlit app with modules for rating, comparison, and automated profiling using
+                GenAI.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card modern-card">
+            <div class="card-img-wrapper bg-warning bg-opacity-10 d-flex align-items-center justify-content-center">
+              <i class="fas fa-home fa-4x text-warning"></i>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title fw-bold">House Prices Forecaster</h5>
+              <div class="mb-3">
+                <span class="badge bg-primary">Python</span>
+                <span class="badge bg-warning text-dark">TensorFlow</span>
+                <span class="badge bg-secondary">Scikit-learn</span>
+              </div>
+              <p class="card-text small text-muted">Experimented with various models (Ridge, Decision Tree, ElasticNet,
+                Neural Networks) individually and via ensembles to optimize house price forecasts. Achieved R² of 95% on
+                training, 92% on test.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card modern-card">
+            <div class="card-img-wrapper bg-info bg-opacity-10 d-flex align-items-center justify-content-center">
+              <i class="fas fa-music fa-4x text-info"></i>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Tropical Music Genres Classifier</h5>
+              <div class="mb-3">
+                <span class="badge bg-primary">Python</span>
+                <span class="badge bg-warning text-dark">TensorFlow</span>
+                <span class="badge bg-dark">Deep Learning</span>
+              </div>
+              <p class="card-text small text-muted">Applied Transfer Learning to build a model that classifies tropical
+                music genres. Achieved an accuracy of 89% on the training set and 87% on the test set.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 5 -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card modern-card">
+            <div class="card-img-wrapper bg-danger bg-opacity-10 d-flex align-items-center justify-content-center">
+              <i class="fas fa-hospital fa-4x text-danger"></i>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title fw-bold">EPSAndes Management</h5>
+              <div class="mb-3">
+                <span class="badge bg-danger">Java</span>
+                <span class="badge bg-secondary">SQL</span>
+                <span class="badge bg-dark">Databases</span>
+              </div>
+              <p class="card-text small text-muted">Developed application backed by a DB with 1M+ records. Wrote complex
+                SQL queries and optimized indices to achieve a 3x performance boost in data retrieval.</p>
+              <a href="https://github.com/casalazara/Sistrans-B13" target="_blank"
+                class="text-decoration-none text-primary small"><i class="fab fa-github me-1"></i>View Code</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 7 -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card modern-card">
+            <div class="card-img-wrapper bg-success bg-opacity-10 d-flex align-items-center justify-content-center">
+              <i class="fab fa-telegram-plane fa-4x text-success"></i>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Telegram Bet Assistant Bot</h5>
+              <div class="mb-3">
+                <span class="badge bg-primary">Python</span>
+                <span class="badge bg-dark">Telegram API</span>
+              </div>
+              <p class="card-text small text-muted">A Telegram bot to save and have control over your bets, built
+                entirely with the Python Telegram library.</p>
+              <a href="https://github.com/casalazara/BetAssistantBot" target="_blank"
+                class="text-decoration-none text-primary small"><i class="fab fa-github me-1"></i>View Code</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 8 -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card modern-card">
+            <div class="card-img-wrapper bg-dark bg-opacity-10 d-flex align-items-center justify-content-center">
+              <i class="fas fa-lock fa-4x text-dark"></i>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Cipher App</h5>
+              <div class="mb-3">
+                <span class="badge bg-danger">Java</span>
+                <span class="badge bg-secondary">Security</span>
+              </div>
+              <p class="card-text small text-muted">A project establishing a secure protocol with a server, encrypting
+                messages between the client and server using Java.</p>
+              <a href="https://github.com/casalazara/caso2_infracomp" target="_blank"
+                class="text-decoration-none text-primary small"><i class="fab fa-github me-1"></i>View Code</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Hobbies and Interests Section -->
+  <section id="hobbies" class="section-padding">
+    <div class="container">
+      <div class="text-center mb-5 reveal">
+        <h2 class="section-title">Interests & Hobbies</h2>
+      </div>
+      <div class="row text-center reveal">
+        <div class="col-md-6 mb-4">
+          <div class="card modern-card p-4 h-100">
+            <h4 class="mb-4 text-primary"><i class="fas fa-lightbulb me-2"></i>Interests</h4>
+            <div class="d-flex flex-column gap-3">
+              <span><i class="fas fa-brain text-muted me-2"></i>Data Science & Neural Networks</span>
+              <span><i class="fas fa-futbol text-muted me-2"></i>Football Performance Analysis</span>
+              <span><i class="fas fa-code text-muted me-2"></i>Web Development</span>
+              <span><i class="fas fa-chart-bar text-muted me-2"></i>Statistics</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4">
+          <div class="card modern-card p-4 h-100">
+            <h4 class="mb-4 text-success"><i class="fas fa-gamepad me-2"></i>Hobbies</h4>
+            <div class="d-flex flex-column gap-3">
+              <a href="https://lichess.org/@/carlossala" target="_blank"
+                class="text-decoration-none text-dark hover-primary"><i
+                  class="fas fa-chess-knight text-muted me-2"></i>Playing Chess</a>
+              <a href="https://open.spotify.com/user/5h8nej3ntltbqw7h53l5dmbz4?si=xjGsWAH9T0CViHnI-dvyHA"
+                target="_blank" class="text-decoration-none text-dark hover-primary"><i
+                  class="fas fa-headphones text-muted me-2"></i>Listening to Music</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-light py-4 text-center">
+    <div class="container">
+      <div class="social-icons mb-4">
+        <a href="https://github.com/casalazara" class="social-icon bg-light text-dark" target="_blank"><i
+            class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/carlosasalazara/" class="social-icon bg-light text-dark" target="_blank"><i
+            class="fab fa-linkedin-in"></i></a>
+        <a href="mailto:ca.salazara@uniandes.edu.co" class="social-icon bg-light text-dark"><i
+            class="fas fa-envelope"></i></a>
+      </div>
+      <p class="mb-0">&copy; <span id="currentYear"></span> Carlos Salazar. All rights reserved.</p>
+    </div>
   </footer>
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-    crossorigin="anonymous"></script>
+
+  <!-- Bootstrap 5 JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom JS -->
+  <script src="script.js"></script>
 </body>
+
 </html>
